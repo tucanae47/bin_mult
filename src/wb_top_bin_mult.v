@@ -26,7 +26,7 @@ module wb_top_bin_mult #(
     output reg          caravel_wb_ack_o,       // ack
     output reg  [31:0]  caravel_wb_dat_o,       // data out
 
-    // output for driving DAC
+    // output for binary multiplier
 
     output wire [6:0] be_out,
 

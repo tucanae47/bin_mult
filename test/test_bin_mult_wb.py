@@ -98,7 +98,7 @@ def bit_count(i):
     return bin(i).count('1')
 
 @cocotb.test()
-async def test_caravel_bus(dut):
+async def test_bin_mult_wb(dut):
     """
     Run all the tests
     """
